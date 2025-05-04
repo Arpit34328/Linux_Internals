@@ -1,0 +1,9 @@
+Hello, this is the content of the source file.
+It will be copied to the destination file by task2.c.
+This text includes multiple lines to test file copying functionality.
+
+- Line 1
+- Line 2
+- Line 3
+
+End of file.
