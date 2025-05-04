@@ -18,7 +18,7 @@
 uint8_t argc;
 char *argv[5];
 
-#define GARBAGE 0
+//#define GARBAGE 0
 
 /*
  * @brief Reads and tokenizes a command-line-style input from the user.
@@ -31,12 +31,13 @@ void get_cmd_arg() {
 
 	char arg[100];
 
-	static bool garbage = GARBAGE;
+	//static bool garbage = GARBAGE;
 
 	printf("\033[1;32marpit343@HLQDX33\033[0m:\033[1;34m~/166967_Arpit_Dennis_Ritchee\033[0m$ ");
 
 
 	// Garbage Handle
+	/*
 	if (garbage) {
 	
 		getchar();
@@ -45,6 +46,7 @@ void get_cmd_arg() {
 	}
 
 	garbage = !GARBAGE;
+	*/
 
 	if (fgets(arg, sizeof(arg), stdin) == NULL) {
 		

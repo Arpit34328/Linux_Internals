@@ -126,22 +126,22 @@ void run_question(uint8_t q_no) {
         
 		case 3:
             
-         // 		run_task3(); 
+         		run_task3(); 
 		       	break;
         
 		case 4:
             
-           //		run_task4(); 
+      			run_task4(); 
 			break;
         
 		case 5:
             
-           //		run_task5(); 
+           		run_task5(); 
 			break;
        
 		case 6:
 
-	//		run_task6();
+			run_task6();
                         break;
 
                 case 7:
