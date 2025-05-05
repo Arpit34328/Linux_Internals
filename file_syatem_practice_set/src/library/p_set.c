@@ -146,19 +146,17 @@ void run_question(uint8_t q_no) {
 
                 case 7:
 
-	//		run_task7();
+			run_task7();
                         break;
 
                 case 8:
 
-                        printf("Running Question 8\n");
-
+			run_task8();
                         break;
 
                 case 9:
 
-                        printf("Running Question 9\n");
-
+			run_task9();
                         break;
 
 		default:
